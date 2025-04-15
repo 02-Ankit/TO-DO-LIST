@@ -24,11 +24,3 @@ ul.addEventListener("click", function (event) {
     }
 });
 
-// let delbtns = document.querySelectorAll(".delete");
-// for(delbtn of delbtns){
-//     delbtn.addEventListener("click", function(){
-//         let par = this.parentElement;
-//         console.log(par);
-//         par.remove();
-//     })
-// }
