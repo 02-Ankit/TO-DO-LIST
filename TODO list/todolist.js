@@ -7,13 +7,12 @@ btn.addEventListener("click", function () {
     item.innerText = inp.value;
 
     let delbtn = document.createElement("button");
-    delbtn.innerText = "delete";
+     delbtn.innerHTML = `<span class="material-icons">delete</span>`;
     delbtn.classList.add("delete");
 
     item.appendChild(delbtn);
     ul.appendChild(item);
-
-    console.log(inp.value);
+    
     inp.value = "";
 });
 
